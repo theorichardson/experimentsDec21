@@ -106,10 +106,20 @@ hr{
 .startupLogos{
 	display: grid;
 	grid-template-columns: 12em 12em 12em 12em;
-	background-color: red;
+	height: 12em;
+	padding: 0px;
+}
+
+.startupLogosImage img{
+	display: grid;
+	grid-template-columns: 12em 12em 12em 12em;
+	background-color: yellow;
 	outline-color: black;
 	height: 12em;
+	padding: 0px;
+	object-fit: contain;
 }
+
 
 
 .dashGridContainer {
