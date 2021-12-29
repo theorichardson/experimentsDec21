@@ -262,11 +262,69 @@ hr{
 
 /*1512*/
 
-@media only screen and (max-width: 1550px) {
-	.dashDetail{
-		width: 38em;
-	}
+@media only screen and (max-width: 1650px) {
+
+	.topContainer{
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 100%;
+	padding-top: 4em;
+	padding-bottom: 0em;
+	/*background-color:#F2F1F6;*/
 }
+
+h6{
+	font-size: 34px;
+}
+
+	.dashDetail{
+		width: 43em;
+	}
+
+.dashGridContainer {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: auto auto;
+  padding: 10em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+	.topContainer{
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 100%;
+	height: 18em;
+	padding-top: 2em;
+	padding-bottom: 0em;
+	/*background-color:#F2F1F6;*/
+}
+
+h6{
+	font-size: 32px;
+}
+
+	.dashDetail{
+		width: 50em;
+	}
+
+.dashGridContainer {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: auto auto;
+  padding: 10em;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+}
+
+
+
 
 @media only screen and (max-width: 1500px) {
 	.dashDetail{
