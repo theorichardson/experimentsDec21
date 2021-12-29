@@ -178,6 +178,7 @@ hr{
 .leftSide{
 	border-radius: .4em;
 	margin: 1em;
+	margin-top: 0em;
 	padding:2em;
 }
 
@@ -188,6 +189,7 @@ hr{
 	border-color: blue;
 	border-width: 2px;*/
 	margin: 1em;
+	margin-top: 0em;
 	padding:2em;
 }
 
