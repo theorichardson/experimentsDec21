@@ -173,7 +173,7 @@ body{
 
 p{
 	font-family: proximaSoft;
-	font-size: 3.5vw;
+	font-size: 6vw;
 	margin: 0px;
 	line-height: 140%;
 }
@@ -185,13 +185,13 @@ h1{
 	line-height: 120%;
 	color: white;
 	font-family: proximaSoftSemiBold;
-	font-size: 5vw;
+	font-size: 9vw;
 }
 
 h2{
 	font-family: proximaSoftSemiBold;
 	font-weight: normal;
-	font-size: 3vw;
+	font-size: 6vw;
 	margin: 0px;
 	color: white;
 	color: #868686;
@@ -200,7 +200,7 @@ h2{
 h3{
 	color: white;
 	font-family: proximaSoftSemiBold;
-	font-size: 4vw;
+	font-size: 8vw;
 	color: #868686;
 }
 
