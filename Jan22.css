@@ -1,0 +1,290 @@
+@font-face {
+  font-family: proximaSoft;
+  src: url(proximaSoft/ProximaSoft-Regular.ttf);
+}
+
+@font-face {
+  font-family: proximaSoftSemiBold;
+  src: url(proximaSoft/ProximaSoft-SemiBold.ttf);
+}
+
+::selection {
+  /* Change highlight background color to black */
+  background: lightcoral;
+  /* Change highlight text color to red */
+  color: pink;
+}
+
+body{
+	font-family: inter;
+	background-color: #282828;
+}
+
+p{
+	font-family: proximaSoft;
+	font-size: 1.2rem;
+	margin: 0px;
+	line-height: 140%;
+}
+
+h1{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: regular;
+	line-height: 120%;
+	color: white;
+	font-family: proximaSoftSemiBold;
+}
+
+h2{
+	font-family: proximaSoftSemiBold;
+	font-weight: normal;
+	font-size: 1.4rem;
+	margin: 0px;
+	color: white;
+	color: #868686;
+}
+
+h3{
+	color: white;
+	font-family: proximaSoftSemiBold;
+	font-size: 1.3rem;
+	color: #868686;
+}
+
+a{
+	text-decoration: none;
+	color: lightcoral;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightsalmon;
+}
+
+li{
+	color: white;
+}
+
+/*
+a:link {
+	text-decoration: none;
+  color: lightsteelblue;
+}
+
+a:visited {
+	text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightsteelblue;
+}
+
+
+a:active {
+	text-decoration: none;
+  color: lightsteelblue;
+}*/
+
+
+
+
+.wholePage{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	padding-top: 8rem;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 2rem;
+	margin: 0px;
+}
+
+.headline{
+	padding-top: 0rem;
+	padding-left: 30%;
+	padding-right: 30%;
+	padding-bottom: 4rem;
+	margin: 0px;
+}
+
+.bodyCopy{
+	padding-top: 0rem;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin: 0px;
+}
+
+.linksContainer{
+	display: grid;
+	grid-template-columns: 1.7rem 1.8rem 1.5rem;
+	height: 2rem;
+	padding-top: 3rem;
+	grid-gap: 2rem;
+}
+
+.link {
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+ padding-top: auto;
+  width: 100%;
+  justify-content: center;
+
+	/*width:12em;
+	object-fit: contain;
+	padding: auto;
+	margin: auto;*/
+}
+
+.link img{
+	display: flex;
+	margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+ 	padding-top: auto;
+  width: 100%;
+  align-content: center;
+
+	/*width:12em;
+	object-fit: contain;
+	padding: auto;
+	margin: auto;*/
+}
+
+.centerText{
+	padding: 10rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+body{
+	font-family: inter;
+	background-color: #282828;
+}
+
+p{
+	font-family: proximaSoft;
+	font-size: 3.5vw;
+	margin: 0px;
+	line-height: 140%;
+}
+
+h1{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: regular;
+	line-height: 120%;
+	color: white;
+	font-family: proximaSoftSemiBold;
+	font-size: 5vw;
+}
+
+h2{
+	font-family: proximaSoftSemiBold;
+	font-weight: normal;
+	font-size: 3vw;
+	margin: 0px;
+	color: white;
+	color: #868686;
+}
+
+h3{
+	color: white;
+	font-family: proximaSoftSemiBold;
+	font-size: 4vw;
+	color: #868686;
+}
+
+a{
+	text-decoration: none;
+	color: lightcoral;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightsalmon;
+}
+
+
+.wholePage{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	padding-top: 12vw;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 2rem;
+	margin: 0px;
+}
+
+.headline{
+	padding-top: 0rem;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 5vw;
+	margin: 0px;
+}
+
+.bodyCopy{
+	padding-top: 0rem;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin: 0px;
+}
+
+.linksContainer{
+	display: grid;
+	grid-template-columns: 10vw 10vw 8vw;
+	height: 2vw;
+	padding-top: 10vw;
+	grid-gap: 6vw;
+	padding-bottom: 5vw;
+}
+
+.link {
+	display: flex;
+  margin-left: auto;
+  margin-right: auto;
+ padding-top: auto;
+  width: 100%;
+  justify-content: center;
+
+	/*width:12em;
+	object-fit: contain;
+	padding: auto;
+	margin: auto;*/
+}
+
+.link img{
+	display: flex;
+	margin: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+ 	padding-top: auto;
+  width: 100%;
+  align-content: center;
+
+	/*width:12em;
+	object-fit: contain;
+	padding: auto;
+	margin: auto;*/
+}
+
+.centerText{
+	padding: 10rem;
+}
+
+}
+
+
